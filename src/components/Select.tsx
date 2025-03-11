@@ -21,7 +21,7 @@ export const Select = ({
       <button
         onClick={() => setIsOpen(!isOpen)}
         disabled={isDisabled}
-        className="flex items-center justify-between w-full bg-[#1c1c1c] px-4 py-1 rounded-lg shadow text-gray-300"
+        className="flex items-center justify-between w-full bg-[#1c1c1c] px-4 py-1 text-md rounded-lg shadow text-gray-300"
       >
         {options.find((option) => option.value === defaultValue)?.label ||
           "Select an option"}

@@ -31,7 +31,7 @@ const Button: FC<ButtonProps> = ({
       <button
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
-        className="rounded-lg md:w-24 w-20 px-4 md:px-6 md:py-1 font-semibold text-sm md:text-base"
+        className="rounded-lg md:w-24 w-20 px-4 md:px-6 py-[1px] font-semibold text-md"
         style={{ color: textColor, backgroundColor: bgColor }}
       >
         <span className="sr-only">{name}</span>
