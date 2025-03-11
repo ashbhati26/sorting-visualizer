@@ -50,7 +50,7 @@ Sorting Visualizer is a web application built with Next.js and TypeScript to vis
 
 
 ### Live Demo
-[View Sorting Visualizer](#) *(Replace # with your actual live link)*
+[View Sorting Visualizer](https://sorting-visualizer-nu-nine.vercel.app/)
 
 ## Challenges Faced
 - Understanding and implementing different sorting algorithms
