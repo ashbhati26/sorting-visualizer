@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sorting Visualizer
 
-## Getting Started
+## Overview
+Sorting Visualizer is a web application built with Next.js and TypeScript to visualize various sorting algorithms. It helps users understand the working of different sorting techniques through animations.
 
-First, run the development server:
+## Features
+- Visual representation of sorting algorithms
+- Supports multiple sorting techniques
+- Customizable sorting speed
+- Smooth animations using Framer Motion
+- User can select the desired sorting algorithm
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **UI Animations:** Framer Motion
+- **Deployment:** Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Supported Sorting Algorithms
+- Bubble Sort
+- Quick Sort
+- Merge Sort
+- Insertion Sort
+- Selection Sort
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Functionality
+- Generates a random array for sorting visualization
+- Allows users to choose a sorting algorithm
+- Provides an option to adjust the sorting speed
+- Displays a smooth animation of the sorting process
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sorting-visualizer.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd sorting-visualizer
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Live Demo
+[View Sorting Visualizer](#) *(Replace # with your actual live link)*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Challenges Faced
+- Understanding and implementing different sorting algorithms
+- Creating smooth and visually appealing animations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Improvements
+- Adding more sorting algorithms
+- Enhancing UI with better user controls
+- Providing step-by-step execution mode
 
-## Deploy on Vercel
+## Credits
+Developed by Ashish
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+Feel free to contribute or suggest improvements!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
