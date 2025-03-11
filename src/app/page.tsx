@@ -47,14 +47,14 @@ export default function Home() {
   };
 
   return (
-    <main className="absolute top-0 md:py-1 h-screen w-screen z-[-2] bg-[#010101] font-raleway text-lg ">
+    <main className="absolute top-0 md:py-1 h-screen w-screen z-[-2] bg-[#010101] font-raleway text-lg overflow-hidden">
       <div className="flex h-full justify-center">
         <div
           id="content-container"
           className="flex flex-col max-w-[1020px] w-full lg:px-0 px-4"
         >
           {/* Header section with title and controls */}
-          <div className="h-[66px] relative flex items-center justify-between w-full">
+          <div className="h-[66px] relative flex items-center md:justify-between justify-center w-full">
             <ShinyText
               text="Sorting Visualizer"
               disabled={false}
@@ -63,7 +63,7 @@ export default function Home() {
             />
 
             {/* Control panel containing slider, select dropdown, and play/reset button */}
-            <div className="flex items-center justify-center gap-4">
+            <div className="flex items-center justify-center gap-4 md:p-1 p-2">
               <Slider
                 isDisabled={isSorting} // Disable slider when sorting is in progress
                 value={animationSpeed}
