@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +11,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #010101;
     --foreground: #ededed;
   }
 }
@@ -18,4 +20,27 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.font-krona {
+  font-family: "Krona One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.font-raleway {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.default-line-color{
+  background-color: #d3d3d3;
+}
+
+.change-line-color{
+  background-color: #cb0303;
 }
